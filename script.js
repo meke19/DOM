@@ -1,22 +1,16 @@
-
-var titulo = document.querySelector("#ux")
-
-
-titulo = document.createTextNode("TItulo alterado")
-
-var subtitle = document.querySelector(".us")
-
-subtitle = document.createTextNode("Segundo titulo do site")
+var a = document.querySelector('#comu')
+var o = document.querySelector('#outro');
+var s = document.querySelector('#botao')
+s.addEventListener('mouseout', saindo)
+s.addEventListener('click', clique)
+a.addEventListener('click', clicou)
 
 
- var body = document.querySelector("body h1")
+function clique(){
+    s.style.backgroundColor = "red"
 
- body.appendChild(titulo)
 
- var test = document.querySelector(".Test")
- console.log(test)
-
- var func = document.createTextNode("Inserindo um texto a ele")
-
-test.appendChild(func)
-
+}
+function saindo(){
+    s.style.backgroundColor = "yellow"
+}

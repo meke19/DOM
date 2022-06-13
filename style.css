@@ -1,3 +1,27 @@
 body{
     text-align: center;
 }
+#comu{
+
+
+    font-size: 20px;
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+
+}
+#outro{
+    font-size: 20px;
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+}
+#botao{
+    width: 100px;
+    height: 100px;
+
+}
